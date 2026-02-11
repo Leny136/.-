@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Cita de San Valentín</title> <!-- Agregué un título para la pestaña -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
   <style>
     * {
       margin: 0;
@@ -162,7 +162,6 @@
   </style>
 </head>
 <body>
-
   <!-- Paso 1 -->
   <div class="card" id="step1">
     <h1>¿Me dejarías ser tu San Valentín?</h1>
@@ -173,7 +172,7 @@
 
   <!-- Paso 2 -->
   <div class="card hidden" id="step2">
-    <h1>¿Eres libre este día?</h1>
+    <h1>¿Estás libre este día?</h1>
     <button class="option date-option">14/02/2026 – 19:00</button>
     <button class="confirm-btn" id="confirmDate">Confirmar fecha</button>
   </div>
@@ -182,14 +181,47 @@
   <div class="card hidden" id="step3">
     <h1>¿Qué te gustaría comer?</h1>
     <div class="options-grid">
-      <!-- Agrega aquí tus opciones de comida con la clase food-option y check-mark -->
       <div class="option-card" data-type="food">
-        <div class="check-mark hidden">✓</div>
-        <button class="option food-option">Pizza</button>
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/0j52dq3C/49a568be608131ec346df78d6bc47669.jpg" class="option-img" alt="Comida normalita">
+        </div>
+        <button class="option food-option">Comida normalita</button>
       </div>
       <div class="option-card" data-type="food">
-        <div class="check-mark hidden">✓</div>
-        <button class="option food-option">Sushi</button>
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/Vv7sKVPn/9bebf66161281e8aaffd0fed28227d4a.jpg" class="option-img" alt="Hamburguesa">
+        </div>
+        <button class="option food-option">Hamburguesa grasosa</button>
+      </div>
+      <div class="option-card" data-type="food">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/rFmwDM5g/1e92708d4c30a0c225cd6e2a8d6aac8b.jpg" class="option-img" alt="Torta">
+        </div>
+        <button class="option food-option">Rica torta de frutilla 🫦</button>
+      </div>
+      <div class="option-card" data-type="food">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/KYnZ6zyc/2dfde0f8ea2865d04cfc47c94c43345a.jpg" class="option-img" alt="Diabetes">
+        </div>
+        <button class="option food-option">Tengamos diabetes juntos 😚</button>
+      </div>
+      <div class="option-card" data-type="food">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/9FrcW1jD/e3d01be8b77d951b0ba79ea8e3cdc84e.jpg" class="option-img" alt="Salchicha">
+        </div>
+        <button class="option food-option">Rica salchicha, como tu pene jejeje</button>
+      </div>
+      <div class="option-card" data-type="food">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/fL8hsS2H/7a12a5be6bb3e84f17762f65a4d35fd7.jpg" class="option-img" alt="Sanguchitos">
+        </div>
+        <button class="option food-option">Una de las cosas más ricas, aparte de vos guapo 😘</button>
       </div>
     </div>
     <button class="confirm-btn" id="confirmFood">Confirmar comida</button>
@@ -199,14 +231,47 @@
   <div class="card hidden" id="step4">
     <h1>¿Qué te gustaría hacer?</h1>
     <div class="options-grid">
-      <!-- Agrega aquí tus opciones de actividad con la clase activity-option y check-mark -->
       <div class="option-card" data-type="activity">
-        <div class="check-mark hidden">✓</div>
-        <button class="option activity-option">Cine</button>
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/sf0R0SZr/d95337835c0b2020ae13ebaf333ad1bf.jpg" class="option-img" alt="Dormir con tu amor">
+        </div>
+        <button class="option activity-option">Dormir todo el día con el amor de tu vida 🥴</button>
       </div>
       <div class="option-card" data-type="activity">
-        <div class="check-mark hidden">✓</div>
-        <button class="option activity-option">Paseo</button>
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/kXKq6GB9/4a290a01c184f6f48711be73d66713e7.jpg" class="option-img" alt="Ir de compras">
+        </div>
+        <button class="option activity-option">Ir de compras con tu familia hermosa 🥰</button>
+      </div>
+      <div class="option-card" data-type="activity">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/k5c4pc8C/6ddc2a2ed9d22bb2070c4c69bfb2c38c.jpg" class="option-img" alt="Picnic">
+        </div>
+        <button class="option activity-option">Picnic barato, porque somos humildes 😌</button>
+      </div>
+      <div class="option-card" data-type="activity">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/507DTdjx/61eb149d8ca7eb84bf0b552a9b450117.jpg" class="option-img" alt="Hornear">
+        </div>
+        <button class="option activity-option">Hornear conmigo, el hombre más hermoso 🫦</button>
+      </div>
+      <div class="option-card" data-type="activity">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/bY5KRhKT/600f994d036971dbe4e4b65e0325d3ae.jpg" class="option-img" alt="Sesión de fotos">
+        </div>
+        <button class="option activity-option">Una sesión de fotos juntos o solos 😼</button>
+      </div>
+      <div class="option-card" data-type="activity">
+        <div class="check-mark hidden">✔</div>
+        <div class="img-container">
+          <img src="https://i.postimg.cc/C1LWcLhJ/c31849532bc9d07231f465f546aa1972.jpg" class="option-img" alt="Hacer ejercicio">
+        </div>
+        <button class="option activity-option">Hacer ejercicio para que veas mí gran culo y te enamores más 😏</button>
       </div>
     </div>
     <button class="confirm-btn" id="confirmActivity">Confirmar opción</button>
@@ -223,12 +288,43 @@
     </h1>
   </div>
 
-  <script>
+  <!-- JS -->
+  <script type="module">
+    // Firebase
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCCokhoAxN4UxT24UQpWQm89y0Ty96VJdc",
+      authDomain: "sorpresa-para-ethan-9599f.firebaseapp.com",
+      databaseURL: "https://sorpresa-para-ethan-9599f-default-rtdb.firebaseio.com/",
+      projectId: "sorpresa-para-ethan-9599f",
+      storageBucket: "sorpresa-para-ethan-9599f.firebasestorage.app",
+      messagingSenderId: "556187940372",
+      appId: "1:556187940372:web:494cb57834dc4e213cd901"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // Variables principales
     const yesBtn = document.getElementById("yesBtn");
     const noBtn = document.getElementById("noBtn");
     let scale = 1;
 
-    const loveElements = ["💖","💗","💕","💘","❤️","Te amo","Mi amor","Eres mío","😍","✨","Te quiero","Amor mio","Mi príncipe","Hermoso mío","Pecas","Me perteneces","Eres mi mundo","Mi calabacín","Encantador","Te estoy vigilando","Siempre te estoy viendo","Guapo","Grandioso","Brillante","Bello","😘","🫦","🥰","💝","💓","💞","❤️‍🩹","💋","❣️","Cariño","Dulzura","Tesoro","Corazón","cielo","Ternura","Sol","Luna"];
+    const loveElements = [
+      "💖", "💗", "💕", "💘", "❤️", 
+      "Te amo", "Mi amor", "Eres mío", 
+      "😍", "✨", "Te quiero", "Amor mio",
+      "Mi príncipe", "Hermoso mío", "Pecas", "Me perteneces",
+      "Eres mi mundo", "Mi calabacín", "Encantador", "Te estoy vigilando",
+      "Siempre te estoy viendo", "Guapo", "Grandioso", "Brillante",
+      "Bello", "😘", "🫦", "🥰",
+      "💝", "💓", "💞", "❤️‍🩹",
+      "💋", "❣️", "Cariño", "Dulzura",
+      "Tesoro", "Corazón", "cielo", "Ternura",
+      "Sol", "Luna",
+    ];
 
     function showLove() {
       const love = document.createElement("div");
@@ -253,6 +349,9 @@
         document.querySelectorAll(".date-option").forEach(b => b.classList.remove("selected"));
         btn.classList.add("selected");
         showLove();
+
+        // Guardar fecha en Firebase
+        set(ref(db, 'elecciones/novio/fecha'), btn.innerText);
       }
     });
 
@@ -263,6 +362,9 @@
         const check = card.querySelector(".check-mark");
         check.classList.toggle("hidden");
         showLove();
+
+        // Guardar comida en Firebase
+        set(ref(db, 'elecciones/novio/comida'), btn.innerText);
       }
     });
 
@@ -273,6 +375,9 @@
         const check = card.querySelector(".check-mark");
         check.classList.toggle("hidden");
         showLove();
+
+        // Guardar actividad en Firebase
+        set(ref(db, 'elecciones/novio/actividad'), btn.innerText);
       }
     });
 
@@ -299,4 +404,3 @@
   </script>
 </body>
 </html>
-
